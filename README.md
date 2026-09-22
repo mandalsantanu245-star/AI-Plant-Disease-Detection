@@ -2,7 +2,7 @@
 
 ## 📌 Project Overview
 
-**AI Plant Disease Detection** is a Deep Learning-based image classification project designed to identify plant diseases from leaf images.
+**AI Plant Disease Detection** is a Deep Learning-based image classification project designed to identify plant diseases from plant leaf images.
 
 The project uses the **PlantVillage dataset** through **TensorFlow Datasets (TFDS)**. Plant leaf images are processed and provided to a Deep Learning image classification model to predict the corresponding plant disease class.
 
@@ -28,7 +28,7 @@ The main objective of this project is to demonstrate how **Artificial Intelligen
 
 This project uses the **PlantVillage** dataset for training and evaluating the plant disease classification model.
 
-The dataset is loaded programmatically using **TensorFlow Datasets** instead of manually storing the complete dataset inside this GitHub repository.
+The dataset is loaded programmatically using **TensorFlow Datasets (TFDS)** instead of manually storing the complete dataset inside this GitHub repository.
 
 The dataset loading code used in the project is:
 
@@ -44,7 +44,7 @@ import tensorflow_datasets as tfds
 )
 ```
 
-The complete dataset is therefore **not included in this repository** because of its size.
+The complete dataset is not included in this repository because of its size.
 
 ---
 
@@ -69,7 +69,7 @@ The notebook contains the complete implementation of:
 * Model evaluation
 * Disease prediction
 
-> **Important:** The model name and architecture in this README should match the final model actually used in the notebook. The notebook is the source of truth for the final implementation.
+> **Important:** The model name and architecture described in this README should match the final model actually used in the notebook. The notebook is the source of truth for the final implementation.
 
 ---
 
@@ -133,9 +133,9 @@ The exact preprocessing configuration can be found in the project notebook.
 AI-Plant-Disease-Detection/
 │
 ├── SantanuMandal_PlantDiseaseDetection.ipynb
+├── SantanuMandal_PlantDiseaseDetection_ProjectReport.docx
 ├── requirements.txt
-├── README.md
-└── SantanuMandal_PlantDiseaseDetection_ProjectReport.docx
+└── README.md
 ```
 
 ### File Description
@@ -144,7 +144,7 @@ AI-Plant-Disease-Detection/
 
 This is the **main project file**.
 
-It contains the complete Python implementation of the project, including:
+It contains the Python implementation of the project, including:
 
 * Importing required libraries
 * Loading the PlantVillage dataset
@@ -157,6 +157,10 @@ It contains the complete Python implementation of the project, including:
 * Visualization
 * Plant disease prediction
 
+#### `SantanuMandal_PlantDiseaseDetection_ProjectReport.docx`
+
+This file contains the detailed project report and documentation, including the project methodology, implementation details, results, and conclusion.
+
 #### `requirements.txt`
 
 Contains the Python libraries required to run the project.
@@ -165,10 +169,6 @@ Contains the Python libraries required to run the project.
 
 Contains the project description, setup instructions, workflow, and documentation.
 
-#### `SantanuMandal_PlantDiseaseDetection_ProjectReport.docx`
-
-Contains the detailed project report and documentation.
-
 ---
 
 ## 💻 Installation
@@ -176,7 +176,7 @@ Contains the detailed project report and documentation.
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/AI-Plant-Disease-Detection.git
+git clone https://github.com/mandalsantanu245-star/AI-Plant-Disease-Detection.git
 ```
 
 ### 2. Open the Project Folder
@@ -235,7 +235,7 @@ Possible evaluation outputs include:
 
 ### Results
 
-The **final numerical results are intentionally not hard-coded in this README**.
+The final numerical results are intentionally not hard-coded in this README.
 
 The actual accuracy, loss, and other performance values should be taken from the **final training run of the notebook** rather than using estimated or example values.
 
@@ -316,11 +316,11 @@ The project can be further improved by:
 
 ### Project Type
 
-Academic / Internship Project
+**Academic / Internship Project**
 
 ### Domain
 
-Artificial Intelligence • Deep Learning • Computer Vision • Smart Agriculture
+**Artificial Intelligence • Deep Learning • Computer Vision • Smart Agriculture**
 
 ---
 
@@ -340,4 +340,12 @@ This project demonstrates the use of **Artificial Intelligence and Deep Learning
 
 By using plant leaf images from the PlantVillage dataset, the system processes the images and uses a trained Deep Learning model to identify the corresponding disease class.
 
-The project provides a practical example of how Computer Vision and Deep Learning techniques can be applied to agricultural problems.
+The project provides a practical example of how **Computer Vision and Deep Learning** techniques can be applied to agricultural problems.
+
+---
+
+## 🔗 GitHub Repository
+
+**AI Plant Disease Detection**
+
+https://github.com/mandalsantanu245-star/AI-Plant-Disease-Detection
