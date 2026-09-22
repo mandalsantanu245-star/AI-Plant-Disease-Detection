@@ -135,7 +135,7 @@ AI-Plant-Disease-Detection/
 ├── SantanuMandal_PlantDiseaseDetection.ipynb
 ├── requirements.txt
 ├── README.md
-└── Project_Report.pdf
+└── SantanuMandal_PlantDiseaseDetection_ProjectReport.docx
 ```
 
 ### File Description
@@ -165,7 +165,7 @@ Contains the Python libraries required to run the project.
 
 Contains the project description, setup instructions, workflow, and documentation.
 
-#### `Project_Report.pdf`
+#### `SantanuMandal_PlantDiseaseDetection_ProjectReport.docx`
 
 Contains the detailed project report and documentation.
 
